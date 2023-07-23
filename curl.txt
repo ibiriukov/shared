@@ -1,0 +1,33 @@
+Curl - Client URL
+
+is a command line tool that enables data exchange between a device and 
+a server through a terminal. Using this command line interface (CLI),
+a user specifies a server URL (the location where they want to send a request)
+and the data they want to send to that server URL.
+
+API tools like Postman and Insomnia provide an interactive user interface 
+(UI) that allows you to make different forms of requests to URLs, 
+for receiving and processing requests. The cURL command does the same thing, 
+except in your terminal. cURL works on Linux, Mac, and Windows.
+
+Curl commands:
+
+curl -I https://google.com                   -----Get header
+curl -L https://google.com                   -----follow redirection and get DOM of the page
+curl -o index.html -L https://google.com     -- save DOM to the file (-o stands for output)
+curl -X GET "https://api.genderize.io?name=sally"   --calling public API
+
+curl --help
+curl --version  
+
+
+
+Header is:
+API headers are like an extra source of information for each API call you make. 
+Their job is to represent the meta-data associated with an API request and response.
+
+Query parameters:
+are appended to the end of the URL, using a '? '. 
+The question mark sign is used to separate path and query parameters. 
+If you want to add multiple query parameters, an '&' sign is placed in between them 
+to form what is known as a query string.

@@ -3,6 +3,10 @@ git add * OR git add text.txt ---- add file(s) to staging
 git restore --staged * ----------- unstage file(s)
 git restore text.txt ------------- restore changes in the file after it was unstaged
 git mv "curl.txt" "curlCommands.txt"---- renaming the file name
+git log ------------------------- list all commits
+git log --oneline --------------- short list
+git commit "Changing the message of commit" --amend
+
 
 
 

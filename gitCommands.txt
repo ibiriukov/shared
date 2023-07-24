@@ -9,12 +9,16 @@ git mv "curl.txt" "curlCommands.txt"---- renaming the file name
 git log ------------------------- list all commits
 git log --oneline --------------- short list
 git commit "Changing the message of commit" --amend
+git commit -a -m "Skeep staging" -------------skip staging
 
 git branch ----------------------- list of branches
 git branch name ------------------ create branch
 git switch name ------------------ select diff branch
 
 git branch -d name --------------- delete branch
+git switch -c name --------------- switch + create
+
+
 
 
 

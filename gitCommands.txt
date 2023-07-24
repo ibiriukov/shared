@@ -7,6 +7,10 @@ git log ------------------------- list all commits
 git log --oneline --------------- short list
 git commit "Changing the message of commit" --amend
 
+git branch ----------------------- list of branches
+git branch name ------------------ create branch
+git switch name ------------------ select diff branch
+
 
 
 

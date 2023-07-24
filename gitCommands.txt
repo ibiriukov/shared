@@ -11,6 +11,9 @@ git branch ----------------------- list of branches
 git branch name ------------------ create branch
 git switch name ------------------ select diff branch
 
+git commit -a -m "test" ---------- commit skipping staging
+git merge -m "merging" fixedBranch ---------- merge whatever in "fixedbranch" to master
+
 
 
 

@@ -20,9 +20,6 @@ git switch -c name --------------- switch + create
 git remote -v -------------------- get a list of handles
 git remote remove origin ---------  change the pointing URL attached to origin
 
-git push -u origin master -------- push everting which is on master to remote
-git push --all ------------------- push all possible branches to remote
-
 
 
 

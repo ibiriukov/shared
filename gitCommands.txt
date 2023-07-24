@@ -17,7 +17,8 @@ git switch name ------------------ select diff branch
 
 git branch -d name --------------- delete branch
 git switch -c name --------------- switch + create
-
+git remote -v -------------------- get a list of handles
+git remote remove origin ---------  change the pointing URL attached to origin
 
 
 

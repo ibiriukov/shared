@@ -1,4 +1,4 @@
-
+ master 
 trainning video link: https://www.youtube.com/watch?v=tRZGeaHPoaw
 
 git init ------------------------- it will select git repository (you shoud be in it by that time)

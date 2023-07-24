@@ -12,6 +12,8 @@ git branch name ------------------ create branch
 git switch name ------------------ select diff branch
 
 git branch -d name --------------- delete branch
+git switch -c name --------------- switch + create
+
 
 
 
